@@ -1,5 +1,6 @@
 import webbrowser
 import time
+import requests
 
 with open('numbers.txt') as f:
     numbers_list = ['7' + i.replace(' ', '')[1:] for i in f.read().split('\n')]
